@@ -1,5 +1,5 @@
 # React
-#### 15/01/2023
+#### 22/01/2023
 #### By Alex Maranga
 
 ## Project Description
@@ -24,7 +24,7 @@
 
 ## Live Link
 The application is deployed in Github Page
-Here is the link 
+Here is the link (https://mashaa22.github.io/bot-challenge/)
 
 ## Bugs
     There is no bugs in the project as per my knowledge on code so far. 
@@ -39,4 +39,4 @@ Here is the link
     - +25412345678
 
 ## License
-Licenced under the [MT-licence]() Copyright (c) 2022 **Alex Maranga
+Licenced under the [MT-licence](https://github.com/Mashaa22/bot-challenge/blob/main/license) Copyright (c) 2022 **Alex Maranga

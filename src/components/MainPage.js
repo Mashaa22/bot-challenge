@@ -6,12 +6,12 @@ function BotsPage() {
   let [bots, setBots] = useState([]);
   let [army, setArmy] = useState([]);
 
-  function enlist(bot) {
+  function select(bot) {
     if (army.includes(bot)) return;
     setArmy((army) => [...army, bot]);
   }
   function retire(bot) {
-    setArmy((army) => army.filter((it) => it.id !== bot.id));
+    setArmy((army) => army.filter((robot) => robot.id !== bot.id));
   }
   useEffect(() => {
     fetch("http://localhost:8001/bots")
@@ -23,15 +23,15 @@ function BotsPage() {
     fetch(`http://localhost:8001/bots/${bot.id}`, {
       method: "DELETE",
     }).then(() => {
-      setBots((bots) => bots.filter((it) => it.id !== bot.id));
-      setArmy((army) => army.filter((it) => it.id !== bot.id));
+      setBots((bots) => bots.filter((robot) => robot.id !== bot.id));
+      setArmy((army) => army.filter((robot) => robot.id !== bot.id));
     });
   }
 
   return (
     <div>
       <BotArmy collection={army} clickHandler={retire} handleDelete={handleDelete} />
-      <BotCollection collection={bots} clickHandler={enlist} handleDelete={handleDelete} />
+      <BotCollection collection={bots} clickHandler={select} handleDelete={handleDelete} />
     </div>
   );
 }

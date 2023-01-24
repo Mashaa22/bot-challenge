@@ -42,7 +42,6 @@ function BotCard({ bot, clickHandler, handleDelete }) {
             <div className="ui center aligned ">
               <button
                 onClick={(e) => {
-                  e.stopPropagation();
                   handleDelete(bot);
                 }}
               >

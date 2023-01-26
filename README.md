@@ -22,6 +22,9 @@
 - I will be able de-select the selected bots
 - I will be able to permanetly delete unwanted bots
 
+## Demo
+![Alt text](../../Downloads/React%20App.gif)
+
 ## Live Link
 The application is deployed in Github Page
 Here is the link (https://mashaa22.github.io/bot-challenge/)

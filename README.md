@@ -23,7 +23,8 @@
 - I will be able to permanetly delete unwanted bots
 
 ## Demo
-![Alt text](../bot-challenge/public/React%20App.gif))
+![Alt text](../bot-challenge/public/React%20App.gif)
+link (https://watch.screencastify.com/v/x4a1paftVqSszVHssTIE)
 
 ## Live Link
 The application is deployed in Github Page
